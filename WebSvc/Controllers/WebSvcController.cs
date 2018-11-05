@@ -9,5 +9,9 @@ namespace WebSvc.Controllers
 {
     public class WebSvcController : ApiController
     {
+        public IHttpActionResult GetTestResult(string id)
+        {
+            return Ok(id);
+        }
     }
 }
