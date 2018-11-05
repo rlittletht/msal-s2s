@@ -36,7 +36,7 @@ namespace WebApp
                 s = Encoding.UTF8.GetString(stm.ToArray());
             }
 
-            divOutput.InnerText += $"Response = {s}";
+            divOutput.InnerHtml += $"Response = {s}<br/>";
         }
     }
 }
